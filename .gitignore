@@ -16,6 +16,7 @@ backend/webapp/src/test/resources/i18n/*.json
 
 frontend/node/
 frontend/build/
+node/
 
 tests/node/
 *.swp
