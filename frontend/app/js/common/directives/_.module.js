@@ -19,7 +19,6 @@
   angular.module('bonitasoft.designer.common.directives', [
     'ngSanitize',
     'bonitasoft.designer.common.services',
-    'bonitasoft.designer.templates',
     'ui.ace',
     'ui.router',
     'gettext',

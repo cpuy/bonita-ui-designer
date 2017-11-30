@@ -19,7 +19,6 @@
   angular.module('bonitasoft.designer.home.import', [
     'bonitasoft.designer.common.repositories',
     'bonitasoft.designer.common.services',
-    'bonitasoft.designer.templates',
     'gettext'
   ]);
 

@@ -26,7 +26,6 @@
     'bonitasoft.designer.common.directives',
     'bonitasoft.designer.common.filters',
     'bonitasoft.designer.editor',
-    'bonitasoft.designer.templates',
     'bonitasoft.designer.assets',
     'ngSanitize',
     'ui.router',
@@ -35,7 +34,7 @@
     'org.bonitasoft.dragAndDrop',
     'gettext',
     'ngUpload',
-    'angularMoment',
+    // 'angularMoment',
     'angularResizable'
   ]);
 })();

@@ -18,7 +18,6 @@
 
   angular.module('bonitasoft.designer.editor.bottom-panel', [
     'bonitasoft.designer.editor.bottom-panel.data-panel',
-    'bonitasoft.designer.templates',
     'ui.router',
     'gettext'
   ]);

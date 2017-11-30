@@ -17,7 +17,6 @@
   'use strict';
 
   angular.module('bonitasoft.designer.editor.palette', [
-    'bonitasoft.designer.templates',
     'bonitasoft.designer.editor.common',
     'gettext'
   ]);

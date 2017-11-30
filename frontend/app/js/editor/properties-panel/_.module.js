@@ -17,7 +17,6 @@
   'use strict';
 
   angular.module('bonitasoft.designer.editor.properties-panel', [
-    'bonitasoft.designer.templates',
     'bonitasoft.designer.editor.common',
     'bonitasoft.designer.common.filters',
     'gettext',
