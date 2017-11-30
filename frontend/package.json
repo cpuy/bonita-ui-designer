@@ -85,7 +85,8 @@
     "e2e": "gulp e2e",
     "pot": "gulp pot",
     "start:legacy": "gulp serve",
-    "start": "electron ."
+    "start": "electron .",
+    "dev": "gulp dev"
   },
   "repository": {
     "type": "git",

@@ -9,7 +9,7 @@ var paths = {
   vendor: [
     'node_modules/babel-polyfill/dist/polyfill.min.js',
     'bower_components/jquery/dist/jquery.min.js',
-    'bower_components/moment/min/moment.min.js',
+    // 'bower_components/moment/min/moment.min.js',
     'bower_components/ace-builds/src-min-noconflict/ace.js',
     'bower_components/ace-builds/src-min-noconflict/ext-language_tools.js',
     'bower_components/angular/angular.min.js',
@@ -26,7 +26,7 @@ var paths = {
     'bower_components/sockjs/sockjs.min.js',
     'node_modules/mousetrap/mousetrap.js',
     'node_modules/mousetrap/plugins/global-bind/mousetrap-global-bind.js',
-    'bower_components/angular-moment/angular-moment.min.js',
+    // 'bower_components/angular-moment/angular-moment.min.js',
     'bower_components/angular-dynamic-locale/tmhDynamicLocale.min.js',
     'bower_components/jsSHA/src/sha1.js',
     'bower_components/identicon.js/pnglib.js',

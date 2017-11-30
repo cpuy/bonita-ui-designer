@@ -16,6 +16,7 @@
 
   'use strict';
 
+  const ctrl = require('../../../../backend/pages.controller');
   angular
     .module('bonitasoft.designer.common.repositories')
     .factory('pageRepo', pageRepository)
@@ -49,6 +50,10 @@
       loadAssets(page) {
         return this.$http.get(`${this.baseUrl}/${page.id}/assets`)
           .then((response) => response.data);
+      }
+
+      all() {
+        return ctrl.all();
       }
     }
     return new PageRepository();

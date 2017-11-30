@@ -16,14 +16,14 @@ function createWindow () {
   mainWindow = new BrowserWindow({
     width: 800, 
     height: 600,
-    webPreferences: {
-      nodeIntegration: false
-    }
+    // webPreferences: {
+    //   nodeIntegration: false
+    // }
   })
 
   // and load the index.html of the app.
   mainWindow.loadURL(url.format({
-    pathname: path.resolve(__dirname, 'build', 'dev', 'index.html'),
+    pathname: path.resolve(__dirname, 'app', 'index.html'),
     protocol: 'file:',
     slashes: true
   }))
