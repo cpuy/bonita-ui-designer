@@ -2,7 +2,7 @@
   "name": "page-builder",
   "version": "0.0.1",
   "description": "Bonitasoft page builder",
-  "main": "index.js",
+  "main": "main.js",
   "engine": {
     "npm": ">=2.0.0"
   },
@@ -21,6 +21,7 @@
     "browser-sync": "~1.7.1",
     "connect": "~3.2.0",
     "del": "^1.1.1",
+    "electron": "^1.7.9",
     "gulp": "~3.8.8",
     "gulp-angular-gettext": "^2.1.0",
     "gulp-autoprefixer": "^2.1.0",
@@ -83,7 +84,8 @@
     "pree2e": "webdriver-manager update --versions.standalone=3.7.0 --versions.chrome=2.33",
     "e2e": "gulp e2e",
     "pot": "gulp pot",
-    "start": "gulp serve"
+    "start:legacy": "gulp serve",
+    "start": "electron ."
   },
   "repository": {
     "type": "git",
