@@ -135,7 +135,6 @@ module.exports = function (gulp, config) {
       .pipe(base64())
       .pipe(concat('page-builder.css'))
       .pipe(csso())
-      .pipe(rename('page-builder-' + timestamp + '.min.css'))
       .pipe(gulp.dest(paths.dist + '/css'));
   });
 
@@ -210,9 +209,8 @@ module.exports = function (gulp, config) {
 
   gulp.task('dist:js', ['bundle:js'], function () {
     return gulp.src(paths.dev + '/js/app.js')
-      .pipe(rename('page-builder-' + timestamp + '.min.js'))
       .pipe(replace('\'%debugMode%\'', !utils.env.dist))
-      .pipe(uglify({output: {'ascii_only': true}}))   // preserve ascii unicode characters such as \u226E
+      // .pipe(uglify({output: {'ascii_only': true}}))   // preserve ascii unicode characters such as \u226E
       .pipe(header(config.banner))
       .pipe(gulp.dest(paths.dist + '/js'));
   });
@@ -237,7 +235,6 @@ module.exports = function (gulp, config) {
   gulp.task('dist:vendors', ['bundle:vendors'], function () {
 
     return gulp.src(paths.dev + '/js/vendors.js')
-      .pipe(rename('vendors-' + timestamp + '.min.js'))
       .pipe(gulp.dest(paths.dist + '/js'));
   });
 

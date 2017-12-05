@@ -1,4 +1,4 @@
-// provide decorators for angular services fetching data 
+// provide decorators for angular services fetching data
 window.angular
   .module('uidesigner')
   .config([ '$provide', function($provide) {
