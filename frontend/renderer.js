@@ -1,8 +1,9 @@
-require('./node_modules/babel-polyfill/dist/polyfill.min.js');
+// require('./node_modules/babel-polyfill/dist/polyfill.min.js');
 require('./bower_components/jquery/dist/jquery.min.js');
 // require('./bower_components/moment/min/moment.min.js');
 // require('./bower_components/angular-moment/angular-moment.min.js');
-require('./bower_components/angular/angular.js');
+// require('./bower_components/angular/angular.js');
+
 require('./bower_components/ace-builds/src-min-noconflict/ace.js');
 require('./bower_components/ace-builds/src-min-noconflict/ext-language_tools.js');
 require('./bower_components/angular-sanitize/angular-sanitize.min.js');

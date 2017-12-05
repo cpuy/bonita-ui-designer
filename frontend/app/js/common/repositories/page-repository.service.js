@@ -16,7 +16,7 @@
 
   'use strict';
 
-  const ctrl = require('../../../../backend/pages.controller');
+  // const ctrl = require('../../../../backend/pages.controller');
   angular
     .module('bonitasoft.designer.common.repositories')
     .factory('pageRepo', pageRepository)
@@ -53,7 +53,7 @@
       }
 
       all() {
-        return ctrl.all();
+        // return ctrl.all();
       }
     }
     return new PageRepository();
