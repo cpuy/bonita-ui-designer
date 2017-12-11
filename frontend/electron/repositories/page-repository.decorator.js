@@ -6,6 +6,7 @@ module.exports = {
   create: (artifact) => {
     artifact.id = artifact.name;
     artifact.data = {};
+    artifact.assets = [];
     pages.push(artifact);
     return Promise.resolve(artifact);
   },
