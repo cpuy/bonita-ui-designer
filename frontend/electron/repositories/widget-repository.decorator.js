@@ -9,6 +9,13 @@ const loadWidget = async (name) => {
     const template = await fs.readFile(path.resolve(widgetsDir, name, `${name}.tpl.html`));
     widget.template = template.toString();
   }
+
+  // set default bond type (expression)
+  widget.properties = (widget.properties || []).map(p => {
+    p.bond = p.bond || 'expression';
+    return p;
+  });
+
   return widget;
 };
 
