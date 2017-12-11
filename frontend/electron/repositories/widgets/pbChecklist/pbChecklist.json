@@ -2,6 +2,7 @@
   "id": "pbChecklist",
   "name": "Checklist",
   "type": "widget",
+  "custom": false,
   "template": "@pbChecklist.tpl.html",
   "controller": "@pbChecklist.ctrl.js",
   "description": "Set of checkboxes for options. The user selects zero or more",
@@ -65,7 +66,11 @@
       "name": "availableValues",
       "help": "Can be a list of objects. Use 'Displayed key' to refine options and 'Returned key' to refine selections",
       "type": "collection",
-      "defaultValue": ["green", "red", "blue"],
+      "defaultValue": [
+        "green",
+        "red",
+        "blue"
+      ],
       "caption": "Comma-separated list or bound an array data"
     },
     {

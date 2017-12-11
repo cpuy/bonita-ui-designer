@@ -2,6 +2,7 @@
   "id": "pbInput",
   "name": "Input",
   "type": "widget",
+  "custom": false,
   "template": "@pbInput.tpl.html",
   "controller": "@pbInput.ctrl.js",
   "description": "Field where the user can enter information",

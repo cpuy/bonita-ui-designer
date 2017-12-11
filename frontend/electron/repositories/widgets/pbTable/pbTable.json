@@ -2,6 +2,7 @@
   "id": "pbTable",
   "name": "Table",
   "type": "widget",
+  "custom": false,
   "template": "@pbTable.tpl.html",
   "controller": "@pbTable.ctrl.js",
   "description": "Tabular presentation of data from an array",
@@ -14,7 +15,12 @@
       "help": "If you specify an expression, the result must be an array of strings",
       "name": "headers",
       "type": "collection",
-      "defaultValue": ["Id", "Name", "Description", "Date"]
+      "defaultValue": [
+        "Id",
+        "Name",
+        "Description",
+        "Date"
+      ]
     },
     {
       "label": "Content",

@@ -2,6 +2,7 @@
   "id": "pbText",
   "name": "Text",
   "type": "widget",
+  "custom": false,
   "template": "@pbText.tpl.html",
   "description": "Short string or paragraph of text to be displayed. Can include HTML tags",
   "order": "16",
@@ -20,7 +21,11 @@
       "name": "alignment",
       "type": "choice",
       "defaultValue": "left",
-      "choiceValues": ["left", "center", "right"],
+      "choiceValues": [
+        "left",
+        "center",
+        "right"
+      ],
       "bond": "constant"
     }
   ]

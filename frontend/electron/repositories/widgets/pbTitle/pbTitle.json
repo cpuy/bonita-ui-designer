@@ -2,6 +2,7 @@
   "id": "pbTitle",
   "name": "Title",
   "type": "widget",
+  "custom": false,
   "template": "@pbTitle.tpl.html",
   "description": "Text used to structure the page or form content",
   "order": "17",
@@ -20,7 +21,14 @@
       "name": "level",
       "type": "choice",
       "defaultValue": "Level 2",
-      "choiceValues": ["Level 1", "Level 2", "Level 3", "Level 4", "Level 5", "Level 6"],
+      "choiceValues": [
+        "Level 1",
+        "Level 2",
+        "Level 3",
+        "Level 4",
+        "Level 5",
+        "Level 6"
+      ],
       "bond": "constant"
     },
     {
@@ -28,7 +36,11 @@
       "name": "alignment",
       "type": "choice",
       "defaultValue": "left",
-      "choiceValues": ["left", "center", "right"],
+      "choiceValues": [
+        "left",
+        "center",
+        "right"
+      ],
       "bond": "constant"
     }
   ]
