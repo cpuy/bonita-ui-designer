@@ -10,6 +10,12 @@
     <link rel="stylesheet" href="../build/dist/css/page-builder.css"/>
     <!-- endbuild -->
 
+    <!-- Insert this line above script imports  -->
+    <script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+
+
+
+
     <!-- build:vendors -->
     <script src="../build/dist/js/vendors.js"></script>
     <!-- endbuild -->
@@ -21,6 +27,9 @@
     <!-- build:e2e -->
     <!-- endbuild -->
 
+    <!-- Insert this line after script imports -->
+    <script>if (window.module) module = window.module;</script>
+    
     <script>
         require('../electron/decorators')
     </script>
